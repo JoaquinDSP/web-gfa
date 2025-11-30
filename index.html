@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>GFA - Estudio</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/favicon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Satoshi:wght@300&family=Minion+Variable+Concept&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header sticky-top">
+
+    <div class="topbar d-flex align-items-center">
+      <div class="container d-flex justify-content-center justify-content-md-between">
+        <div class="d-none d-md-flex align-items-center">
+          <!-- <i class="bi bi-clock me-1"></i> Lunes - viernes, 8:00 a 18:00
+        </div>
+        <div class="d-flex align-items-center">
+          <i class="bi bi-phone me-1"></i> Comuniquese con nosotros: 3435-043015 -->
+        </div>
+      </div>
+    </div> <!-- End Top Bar -->
+
+    <div class="branding d-flex align-items-center">
+
+      <div class="container position-relative d-flex align-items-center justify-content-end">
+        <a href="index.html" class="logo d-flex align-items-center me-auto">
+          <img src="assets/img/logo.png" alt="">
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="#hero" class="active">Inicio</a></li>
+            <!-- <li><a href="#about">Nosotros</a></li> -->
+            <li><a href="#doctors">Profesionales</a></li>
+            <li><a href="#contact">Contacto</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+        <a class="cta-btn" href="https://api.whatsapp.com/send?phone=+5493454159972&text=¡Hola!%20Me%20comunico%20con%20ustedes%20a%20fines%20de%20agendar%20una%20consulta." target="_blank">AGENDAR CONSULTA</a>
+      </div>
+
+    </div>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+<section id="hero" class="hero section">
+
+  <style>
+    /* Ajuste del Hero para MOBILE */
+    @media (max-width: 768px) {
+
+      /* Fuerza a que cada item del carrusel mida toda la altura del móvil */
+      #hero-carousel .carousel-item {
+        height: 100vh !important;
+      }
+
+      /* La imagen del carrusel se recorta correctamente en móvil */
+      #hero-carousel .carousel-item img {
+        width: 100%;
+        height: 100vh !important;
+        object-fit: cover !important;     /* Esto recorta perfecto */
+        object-position: center !important;
+        display: block;
+      }
+
+      /* El contenedor del texto ocupa toda la pantalla */
+      #hero .container {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: 100vh !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+    }
+  </style>
+
+  <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="6000">
+
+    <div class="carousel-item active">
+      <img src="assets/img/hero-carousel/hero-carousel-1.svg" alt="">
+      <div class="container" style="opacity: 0;">
+        <h2>Resolución a infracciones de tránsito</h2>
+        <p>Somos un estudio jurídico con experiencia en la realización de trámites de impugnación de infracciones de tránsito en la provincia de Entre Ríos. Si fuiste patrimonialmente afectado por una fotomulta o infracción de transito de cualquier tipo, contactanos hoy mismo.</p>
+        <a href="../MediCio-1.0.0/pages/infracciones-details.html" class="btn-get-started">Conocer más</a>
+      </div>
+    </div>
+
+    <!-- End Carousel Item -->
+
+    <div class="carousel-item">
+      <img src="assets/img/hero-carousel/hero-carousel-2.jpg" alt="">
+      <div class="container" style="opacity: 0;">
+        <h2>Amparos de Salud</h2>
+        <p>Ofrecemos un servicio enfocado en amparos de salud, garantizando que los prestadores de dichos servicios (obras sociales y empresas de medicina prepaga) aseguren acceso integral a la salud en tiempo y forma. Nuestro servicio abarca desde la cobertura de atención médica brindada por profesionales especializados, intervenciones quirúrgicas complejas, medicamentos de alto costo y demás procedimientos requeridos por el paciente. </p>
+        <a href="../MediCio-1.0.0/pages/amparos_details.html" class="btn-get-started">Conocer más</a>
+      </div>
+    </div>
+
+    <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+    </a>
+
+    <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+    </a>
+
+    <ol class="carousel-indicators"></ol>
+
+  </div>
+
+</section>
+<!-- /Hero Section -->
+
+<!-- Featured Services Section -->
+<section id="featured-services" class="featured-services section">
+
+  <div class="container">
+    <div class="row gy-4">
+
+      <div class="row gx-3">
+        <div class="col-12 d-flex mb-4">
+          <div class="service-item position-relative flex-fill h-100 shadow-xl rounded-4 p-4 bg-white 
+                      transition shadow-lg hover:shadow-2xl">
+            <div class="icon">
+              <i class="fa-solid fa-helmet-safety"></i>
+            </div>
+            <h4><a href="/web_GFA/pages/accidentes.html" class="stretched-link">ACCIDENTES LABORALES</a></h4>
+            <p>
+              Entendemos que un accidente en el lugar de trabajo puede afectar tu salud, tu estabilidad económica y tu futuro
+              profesional. Te acompañamos en todo el proceso para que puedas acceder a las prestaciones, indemnizaciones y
+              tratamientos que te corresponden por ley. Nuestro equipo se encarga de gestionar tu reclamo ante ART y empleadores,
+              brindando asesoramiento claro y resolutivo para proteger tus derechos laborales en cada instancia.
+            </p>
+          </div>
+        </div>
+
+        <div class="row gx-3">
+          <div class="col-12 d-flex mb-4">
+            <div class="service-item position-relative flex-fill h-100 shadow-xl rounded-4 p-4 bg-white 
+                        transition shadow-lg hover:shadow-2xl">
+              <div class="icon">
+                <i class="fa-solid fa-scale-balanced"></i>
+              </div>
+              <h4><a href="/web_GFA/pages/amparos.html" class="stretched-link">AMPAROS</a></h4>
+              <p>
+                Cuando tus derechos se ven vulnerados por decisiones arbitrarias o demoras injustificadas, el amparo es una
+                herramienta legal eficaz para obtener una solución urgente. Te ayudamos a iniciar acciones rápidas para
+                restituir tus derechos —ya sea acceso a salud, trámites demorados, servicios esenciales o situaciones
+                administrativas injustas— asegurando una respuesta oportuna y efectiva por parte de la justicia.
+              </p>
+            </div>
+          </div>
+
+          <div class="row gx-3">
+            <div class="col-12 d-flex mb-4">
+              <div class="service-item position-relative flex-fill h-100 shadow-xl rounded-4 p-4 bg-white 
+                          transition shadow-lg hover:shadow-2xl">
+                <div class="icon">
+                  <i class="fa-solid fa-gavel"></i>
+                </div>
+                <h4><a href="/web_GFA/pages/penal.html" class="stretched-link">MATERIA PENAL</a></h4>
+                <p>
+                  Frente a una acusación penal o una situación que involucra tu libertad y tu buen nombre, es fundamental contar con
+                  defensa técnica inmediata y estratégica. Te brindamos acompañamiento desde la primera instancia: declaraciones,
+                  audiencias, medidas cautelares y etapas del proceso. Nuestra prioridad es resguardar tus derechos,
+                  garantizar un trato justo y trabajar en una defensa sólida, seria y transparente.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-12 d-flex mb-4">
+              <div class="service-item position-relative flex-fill h-100 shadow-xl rounded-4 p-4 bg-white 
+                          transition shadow-lg hover:shadow-2xl">
+                <div class="icon">
+                  <i class="fa-solid fa-people-arrows"></i>
+                </div>
+                <h4><a href="/web_GFA/pages/sociedades.html" class="stretched-link">SOCIEDADES Y FUNDACIONES</a></h4>
+                <p>
+                  Asesoramos a emprendedores, empresas y organizaciones civiles en la creación, regularización y funcionamiento de sociedades y
+                  entidades sin fines de lucro. Te guiamos en la elección del tipo societario adecuado, elaboración de estatutos,
+                  trámites ante organismos públicos y cumplimiento de obligaciones legales. Nuestro objetivo es que tu proyecto crezca con seguridad jurídica,
+                  orden y respaldo normativo.
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+<!-- /Featured Services Section -->
+
+
+
+   <!-- Call To Action Section -->
+<section id="call-to-action" class="call-to-action section accent-background">
+  <div class="container">
+    <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+      <div class="col-xl-10">
+        <div class="text-center">
+          <h3>¿Por qué elegirnos?</h3>
+          <p>En un contexto legal cada vez más complejo, sabemos que necesitás mucho más que un abogado: necesitás acompañamiento, 
+            claridad y soluciones reales. Por eso trabajamos con un enfoque humano, profesional y orientado a resultados.</p>
+          <a class="cta-btn" href="#contact">Comencemos a trabajar en su caso</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /Call To Action Section -->
+
+
+ <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Testimonios</h2>
+        <p>Lo mas importante para nuestro estudio, es velar por quienes confian en nosotros</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper" data-speed="600" data-delay="5000" data-breakpoints="{ &quot;320&quot;: { &quot;slidesPerView&quot;: 1, &quot;spaceBetween&quot;: 40 }, &quot;1200&quot;: { &quot;slidesPerView&quot;: 3, &quot;spaceBetween&quot;: 40 } }">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 40
+                },
+                "1200": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 20
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+            <p>
+              <i class=" bi bi-quote quote-icon-left"></i>
+                <span>Hola Agostina!! Gracias a vos por haber acompañado en este
+                proceso y también por hacernos sentir que uds eran uno más de los integrantes de la Flia y por ende del problema, 
+                siempre confiamos nunca dudamos, además el compromiso y la polenta que le pusieron jamás nos permitió dudar, gracias!!!! 
+                Nos vemos pronto</span>
+                <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <!-- <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Saul Goodman</h3>
+                <h4>Ceo &amp; Founder</h4> -->
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Muchas gracias Agostina! Ya estamos en la recta final! Una genia. Muchas gracias</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <!-- <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Designer</h4> -->
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>
+                  Hola Agostina!! Que buena noticia, dale cuando llegue a casa te pasamos todo!! Te amamos!!!</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <!-- <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Designer</h4> -->
+              </div>
+            </div><!-- End testimonial item -->
+          <!-- </div>
+          <div class="swiper-pagination"></div>
+        </div> -->
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+    <!-- Tabs Section -->
+    <section id="tabs" class="tabs section">
+
+    
+    </section><!-- /Tabs Section -->
+     
+    <!-- Doctors Section -->
+    <section id="doctors" class="doctors section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title-dark" data-aos="fade-up">
+      <h2 style="text-align: center; display: block; margin: auto;">Profesionales</h2>
+      <p> </p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+            <!-- Fontana -->
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/doctors/doctors-1.jpg" class="img-fluid" alt="">
+                <div class="social">
+                 <div class="social">
+                <a href="https://wa.me/+5493435043015" target="_blank">
+                  <i class="bi bi-whatsapp"></i>
+                </a>
+                  <a href="https://www.instagram.com/fontanaestudiojuridico/" target="_blank">
+                  <i class="bi bi-instagram"></i>
+                </a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                   </a>
+                  <!-- <a href="https://www.instagram.com/fontanaestudiojuridico/" target="_blank">
+                  <i class="bi bi-envelope-at-fill"></i>
+                </a> -->
+                  
+                </div>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Fontana Garramuño Agustin</h4>
+                <span>Abogado</span>
+                <span>Matricula Federal Tº140 Fº746</span>
+                <span>Matricula CAER Nº 10.884</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/doctors/doctors-2.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href="https://wa.me/+5493454159972" target="_blank">
+                  <i class="bi bi-whatsapp"></i>
+                   <a href="https://www.instagram.com/estudiogisbertmolina/" target="_blank">
+                  <i class="bi bi-instagram"></i>
+                  <a href="https://www.linkedin.com/in/agostina-gisbert-molina-7ba5331b5/" alt="link linkedin Gisbert" target="_blank">
+                    <i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Gisbert Molina Agostina</h4>
+                <span>Abogada</span>
+                <span>Diplomada en prevención de abuso sexual infantil </span>
+                <span>Matricula CAER Nº 10.922</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+
+        </div>
+
+      </div>
+
+      
+
+    </section><!-- /Doctors Section -->
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>CONTÁCTENOS</h2>
+        <p>Permitanos comenzar a trabajar hoy mismo con usted para llevar adelante su caso.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <div class="col-lg-6 ">
+            <div class="row gy-4">
+              
+              <!-- en diamante -->
+              <div class="col-md-12">
+                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
+                  <a href="https://www.google.com/maps?q=Etchevehere+458+(Esquina+D.+Dasso),+Diamante,+Entre+R%C3%ADos" target="_blank" class="text-center">
+                    <div class="d-flex flex-column align-items-center">
+                      <i class="bi bi-geo-alt" style="font-size: 35px; margin-bottom: 10px;"></i>
+                      <h3 style="margin-bottom: 10px;">Diamante, Entre Ríos</h3>
+                      <p style="color: #d3b179;">Etchevehere Nº 458 (Esquina D. Dasso)</p>
+                    </div>
+                  </a>
+                </div>
+              </div><!-- End Info Item -->   
+              
+              
+              <div class="col-md-6">
+                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
+                  <a href="https://api.whatsapp.com/send?phone=+5493434677243&text=¡Hola!%20Me%20comunico%20con%20ustedes%20a%20fines%20de%20consultarles%20sobre" target="_blank" class="text-center">
+                    <div class="d-flex flex-column align-items-center">
+                      <i class="bi bi-whatsapp" style="font-size: 35px; margin-bottom: 10px;"></i>
+                      <h3 style="margin-bottom: 10px;">Whatsapp</h3>
+                      <p style="color: #d3b179;">+5493454159972</p>
+                    </div>
+                  </a>
+                </div>
+              </div><!-- End Info Item -->
+              
+              
+              <div class="col-md-6">
+                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="400">
+                  <a href="mailto:agostinagisbert@outlook.com" class="text-center">
+                    <div class="d-flex flex-column align-items-center">
+                      <i class="bi bi-envelope" style="font-size: 35px; margin-bottom: 10px;"></i>
+                      <h3 style="margin-bottom: 10px;">Email</h3>
+                      <p style="color: #d3b179;">agostinagisbert@outlook.com</p>
+                    </div>
+                  </a>
+                </div>
+              </div><!-- End Info Item -->
+              
+
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <!-- ✅ FORMULARIO -->
+           
+            <!-- <form id="miFormulario" class="php-email-form">
+              <div class="row gy-4">
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Nombre" required>
+                </div>
+                <div class="col-md-6">
+                  <input type="tel" name="tel" class="form-control" placeholder="Teléfono" required>
+                </div>
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Asunto" required>
+                </div>
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="4" placeholder="Mensaje" required></textarea>
+                </div>
+           -->
+                <!-- ✅ hCaptcha -->
+                <div class="h-captcha" data-sitekey="1982117c-b424-463c-9d8e-77c612562c1a"></div>
+                
+                <div class="col-md-12 text-center">
+                  <!-- <button type="submit">Enviar Consulta</button> -->
+                </div>
+              </div>
+            </form>
+          
+            <!-- ✅ MODAL OCULTO Y CENTRADO -->
+            <div id="modalExito" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.5); z-index:999; align-items:center; justify-content:center;">
+              <div style="background:#fff; padding:30px; width:90%; max-width:400px; border-radius:10px; text-align:center; box-shadow:0 10px 25px rgba(0,0,0,0.3);">
+                <h2>✅ ¡Gracias!</h2>
+                <p>Su mensaje ha sido enviado con éxito.</p>
+                <button onclick="cerrarModal()" style="padding:10px 20px; background:#0e1317; color:aliceblue; border:none; border-radius:5px; cursor:pointer; margin-top:15px;">Cerrar</button>
+              </div>
+            </div>
+          
+            <!-- ✅ JS PARA INTERCEPTAR Y MOSTRAR EL MODAL -->
+            <script>
+              const formulario = document.getElementById("miFormulario");
+              const modal = document.getElementById("modalExito");
+          
+              formulario.addEventListener("submit", function (e) {
+                e.preventDefault(); // Evita que se recargue la página
+          
+                // Verificar si el hCaptcha está completado
+                const hcaptchaResponse = grecaptcha.getResponse();
+          
+                if (hcaptchaResponse.length == 0) {
+                  alert("Por favor completa el CAPTCHA");
+                  return;
+                }
+          
+                // Envía el formulario usando fetch
+                fetch("https://formsubmit.co/agustinfontanagarramuno@gmail.com", {
+                  method: "POST",
+                  body: new FormData(formulario)
+                })
+                .then(response => {
+                  if (response.ok) {
+                    modal.style.display = "block"; // Muestra el modal
+                    formulario.reset(); // Limpia el formulario
+                  }
+                })
+                .catch(error => {
+                  alert("Hubo un error al enviar. Intenta de nuevo.");
+                });
+              });
+          
+              function cerrarModal() {
+                modal.style.display = "none";
+              }
+            </script>
+          </div> <!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+    
+      <div class="mb-5" data-aos="fade-up" data-aos-delay="200">
+        <iframe style="border:0; width: 100%; height: 370px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3381.1000184822346!2d-60.641982723492724!3d-32.06654342798365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5cda54bc2900f%3A0xb4211298baf72b31!2sDasso%20%26%20Etchevehere%2C%20E3105%20Diamante%2C%20Entre%20R%C3%ADos!5e0!3m2!1ses!2sar!4v1742425634657!5m2!1ses!2sar" frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div><!-- End Google Maps -->
+
+  </main>
+
+  <footer id="footer" class="footer light-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename" style="color: aliceblue;">GFA Estudio</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>Etchevehere N° 458 </p>
+            <p>Diamante, Entre Ríos</p>
+            <p class="mt-3"><strong>Teléfono:</strong> <span>(345)4159972</span></p>
+            <p><strong>Email:</strong> <span>agostinagisbert@outlook.com</span></p>
+          </div>
+          <div class="social-links d-flex mt-4">
+            <!-- <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a> -->
+            <a href="https://www.linkedin.com/in/joaqu%C3%ADn-spretz-bb76a02a9/"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4 style="color: aliceblue;">Enlaces utiles</h4>
+          <ul>
+            <li><a href="#hero">Inicio</a></li>
+            <!-- <li><a href="#about">Nosotros</a></li> -->
+            <li><a href="#doctors">Profesionales</a></li>
+            <li><a href="#contact">Contactenos</a></li>
+            <!-- <li><a href="#">Services</a></li> -->
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4 style="color: aliceblue;">Servicios</h4>
+          <ul>
+            <li><a href="/web_GFA/pages/accidentes.html">Accidentes Laborales </a></li>
+            <li><a href="/web_GFA/pages/amparos.html">Amparos</a></li>
+            <li><a href="/web_GFA/pages/penal.html">Materia Penal</a></li>
+            <li><a href="/web_GFA/pages/sociedades">Sociedades y Fundaciones</a></li>
+          </ul>
+        </div>
+
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Gisbert Fontana & Asociados</strong> <span>Derechos Reservados</span></p>
+      <div class="credits">
+     
+        Diseñado por <a href="https://www.linkedin.com/in/joaqu%C3%ADn-spretz-bb76a02a9/" style="color: aliceblue;">Joa.Spretz</a> 
+        
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- whatsapp-button -->
+  
+  <a href="https://api.whatsapp.com/send?phone=+5493454159972&text=¡Hola!%20Me%20comunico%20con%20usted%20a%20fines%20de%20transmitirle%20una%20consulta."
+  class="whatsapp-button" target="_blank">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
